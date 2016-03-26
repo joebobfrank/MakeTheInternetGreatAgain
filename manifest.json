@@ -1,0 +1,18 @@
+{
+  "name": "Make The Internet Great Again",
+  "description": "We're gonna make the internet great again",
+  "version": "3.1337",
+  "permissions": [
+    "activeTab"
+  ],
+  "icons": { "300": "icon.png" },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_title": "Make this page great again.",
+    "default_icon": "icon.png"
+  },
+  "manifest_version": 2
+}
